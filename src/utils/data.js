@@ -50,8 +50,7 @@ export const projects = [
     description: "A vibrant amusement park frontend website featuring an interactive ticket booking system and an integrated food ordering interface.",
     stack: ["HTML", "CSS", "Bootstrap", "JavaScript"],
     image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=900&q=80",
-    github: "https://github.com/",
-    demo: "https://example.com",
+    github: "https://github.com/Alidilkhan/Funzone",
   },
   {
     title: "DriveX Showroom",

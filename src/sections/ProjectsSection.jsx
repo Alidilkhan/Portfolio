@@ -54,9 +54,11 @@ export function ProjectsSection() {
                     <a href={project.github} target="_blank" rel="noreferrer" className="glass-btn !px-3 !py-2 text-xs">
                       <FiGithub /> Code
                     </a>
-                    <a href={project.demo} target="_blank" rel="noreferrer" className="neon-btn !px-3 !py-2 text-xs">
-                      <FiExternalLink /> Live
-                    </a>
+                    {project.demo ? (
+                      <a href={project.demo} target="_blank" rel="noreferrer" className="neon-btn !px-3 !py-2 text-xs">
+                        <FiExternalLink /> Live
+                      </a>
+                    ) : null}
                   </div>
                 </div>
               </GlowCard>
