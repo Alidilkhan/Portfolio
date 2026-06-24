@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FiArrowRight, FiDownload } from "react-icons/fi";
+import { FiArrowRight } from "react-icons/fi";
 import { FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
 import { HiOutlineMail } from "react-icons/hi";
 import { roles } from "../utils/data";
@@ -68,10 +68,6 @@ export function HeroSection() {
             View Projects <FiArrowRight />
           </a>
           <a href="#contact" className="glass-btn">Let's Connect</a>
-          <a href="Ali_Ahmed_Resume.pdf" className="glass-btn" download>
-            <FiDownload />
-            Download Resume
-          </a>
         </motion.div>
 
         <motion.div
